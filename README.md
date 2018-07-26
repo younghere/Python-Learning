@@ -1,1 +1,1 @@
-Some basic knowledge about Python.
+Some basic knowledges about Python.
