@@ -134,6 +134,7 @@
        ```python
        git branch 分支名(创建分支)
        git checkout 分支名(切换分支)
+       git checkout b 分支名(创建并切换到该分支)
        ```
 
      - 在进行了修改后，提交修改到缓存区
@@ -148,11 +149,18 @@
        git commit -m '提交说明'
        ```
 
-       
-
-     - 如果一天的任务完成或UI阶段任务完成了，就可以吧vending分支内容提交到远程仓库中，以供管理者审查、合并：
+     - 提交内容到远程仓库某个分支:
 
        ```python
+       git push origin 分支名
+       ```
+
+     - 远程仓库中创建一个分支:
+
+       ```python
+       git checkout b 分支名
+       git add .
+       git commit -m '创建一个分支'
        git push origin 分支名
        ```
 
