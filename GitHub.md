@@ -135,6 +135,7 @@
        git branch 分支名(创建分支)
        git checkout 分支名(切换分支)
        git checkout b 分支名(创建并切换到该分支)
+       git checkout b dev origin/dev (将远程dev分支创建到本地)
        ```
 
      - 在进行了修改后，提交修改到缓存区
@@ -150,9 +151,26 @@
        ```
 
      - 查看修改的内容
-	```python
-	git diff 文件名
-	```
+
+       ```python
+       git diff 文件名
+       ```
+
+     - 查看git日志
+
+       ```python
+       git log
+       git reflog (如果你版本恢复之后，又想版本恢复到最新版本)
+       ```
+
+     - 查看远程库的信息
+
+       ```python
+       git remote
+       git remote -v (显示详细信息)
+       ```
+
+       
 
      - 提交内容到远程仓库某个分支:
 
@@ -296,5 +314,3 @@
        
 
      ## 廖雪峰的GitHub教程地址：https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374027586935cf69c53637d8458c9aec27dd546a6cd6000
-
-最新创建的git本地push账号密码：同QQ
